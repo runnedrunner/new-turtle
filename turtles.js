@@ -9,6 +9,9 @@ $( "#position" ).click(function() {
     left: position.x, 
     bottom: position.y,
   });
+  complete : function() {
+    insertLine(origPosition, origHeading, distance)
+  }
   console.log(expos + eypos);
 });
 var turtle = $("#turtle");
