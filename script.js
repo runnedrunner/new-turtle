@@ -1,7 +1,6 @@
 function polygonplz (sides) {
   for (var i = 0; i < sides; i++) {
-    goForward(100)
+    goForward(400/sides);
     turnLeft(360/sides);
   }
 }
-polygonplz(10);
