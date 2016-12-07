@@ -1,13 +1,10 @@
 var heading = 0
 
 var position = {x: 0, y: 0};
-$( "#pos" ).click(function() {
-  var sides = $("#numberz").val();  
-  console.log(sides);
-  for (var i = 0; i < sides; i++) {
-    goForward(400/sides);
-    turnLeft(360/sides);
-  }
+$( "#position" ).click(function() {
+  var expos = $("#x").val();
+  var eypos = $("#y").val();
+  var poistion = {x: expos, y: eypos
 });
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
