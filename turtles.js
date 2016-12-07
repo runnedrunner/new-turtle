@@ -4,7 +4,8 @@ var position = {x: 0, y: 0};
 $( "#position" ).click(function() {
   var expos = $("#x").val();
   var eypos = $("#y").val();
-  var poistion = {x: expos, y: eypos
+  var position = {x: expos, y: eypos};
+  console.log(expos + eypos);
 });
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
