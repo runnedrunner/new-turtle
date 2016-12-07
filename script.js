@@ -15,8 +15,11 @@ $( "#buttonthing" ).click(function() {
 $( "#secondbuttonthing" ).click(function() {
   var sides = $("#secondthing").val();  
   console.log(sides);
+  
   for (var i = 0; i < sides; i++) {
     goForward(360/sides);
     turnLeft(720/sides);
+    goForward(360/sides);
+    turnRight(360/sides);
   }
 });
