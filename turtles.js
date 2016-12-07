@@ -5,6 +5,10 @@ $( "#position" ).click(function() {
   var expos = $("#x").val();
   var eypos = $("#y").val();
   var position = {x: expos, y: eypos};
+  turtle.animate({
+    left: position.x, 
+    bottom: position.y,
+  });
   console.log(expos + eypos);
 });
 var turtle = $("#turtle");
