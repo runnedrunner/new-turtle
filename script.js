@@ -12,3 +12,11 @@ $( "#buttonthing" ).click(function() {
       turnLeft(360/sides);
     }
 });
+$( "#s" ).click(function() {
+  var sides = $("#numberz").val();  
+  console.log(sides);
+  for (var i = 0; i < sides; i++) {
+    goForward(400/sides);
+    turnLeft(360/sides);
+  }
+});
