@@ -25,4 +25,4 @@ $( "#secondbuttonthing" ).click(function() {
     turnRight(360/sides);
   }
 })
-polygonplz (360,9);
+//polygonplz (360,9);
