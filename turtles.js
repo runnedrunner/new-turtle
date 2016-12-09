@@ -8,7 +8,7 @@ $( "#position" ).click(function() {
   turtle.animate({
     left: position.x, 
     bottom: position.y,
-  }, {duration: 1｝);
+  });
   console.log(expos + eypos);
 });
 var turtle = $("#turtle");
@@ -38,7 +38,8 @@ function goForward(distance) {
     bottom: position.y,
   }, {
     complete : function() {
-      insertLine(origPosition, origHeading, distance)
+      insertLine(origPosition, origHeading, distance),
+      duration: 1,
     }
   })
 
