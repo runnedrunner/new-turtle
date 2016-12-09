@@ -1,8 +1,9 @@
 function polygonplz (sides, circles) {
-  fo
-  for (var i = 0; i < sides; i++) {
-    goForward(360/sides);
-    turnLeft(360/sides);
+  for (var i = 0; i < circles; i++) {
+    for (var j = 0; j < sides; j++) {
+      goForward(360/sides);
+      turnLeft(360/sides);
+    }
   }
 }
 $( "#buttonthing" ).click(function() {
