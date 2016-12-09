@@ -8,8 +8,7 @@ $( "#position" ).click(function() {
   turtle.animate({
     left: position.x, 
     bottom: position.y,
-    duration: 1,
-  });
+  }, {duration: 1｝);
   console.log(expos + eypos);
 });
 var turtle = $("#turtle");
