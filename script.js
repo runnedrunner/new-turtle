@@ -1,6 +1,6 @@
 function polygonplz (sides) {
   for (var i = 0; i < sides; i++) {
-    goForward(400/sides);
+    goForward(360/sides);
     turnLeft(360/sides);
   }
 }
@@ -22,4 +22,5 @@ $( "#secondbuttonthing" ).click(function() {
     goForward(360/sides);
     turnRight(360/sides);
   }
-});
+})
+polygonplz (360)
