@@ -4,6 +4,7 @@ function polygonplz (sides, circles) {
       goForward(360/sides);
       turnLeft(360/sides);
     }
+    
   }
 }
 $( "#buttonthing" ).click(function() {
