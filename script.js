@@ -1,4 +1,5 @@
-function polygonplz (sides) {
+function polygonplz (sides, circles) {
+  fo
   for (var i = 0; i < sides; i++) {
     goForward(360/sides);
     turnLeft(360/sides);
@@ -23,4 +24,4 @@ $( "#secondbuttonthing" ).click(function() {
     turnRight(360/sides);
   }
 })
-polygonplz (360)
+polygonplz (360,9);
