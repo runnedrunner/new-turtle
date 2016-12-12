@@ -32,21 +32,16 @@ function goForward(distance) {
 
   position.x = position.x + xIncrement;
   position.y = position.y + yIncrement;
+
   turtle.animate({
     left: position.x, 
     bottom: position.y,
-  }
-  if (pendown) {
-    turtle.animate({
-      left: position.x, 
-      bottom: position.y,
-    }, {
-      complete : function() {
-        insertLine(origPosition, origHeading, distance);
+  }, {
+    complete : function() {
+      insertLine(origPosition, origHeading, distance);
 
-      }, duration: 10,
-    })
-  }
+    }, duration: 10,
+  })
 
 }
 
