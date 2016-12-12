@@ -38,8 +38,9 @@ function goForward(distance) {
     bottom: position.y,
   }, {
     complete : function() {
+      if (pendown) {
       insertLine(origPosition, origHeading, distance);
-
+      }
     }, duration: 10,
   })
 
