@@ -60,3 +60,5 @@ function insertLine(start, angle, distance) {
   
   turtleCage.append(lineEl)
 }
+var pendown = true;
+if (
