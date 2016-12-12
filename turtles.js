@@ -60,6 +60,7 @@ function insertLine(start, angle, distance) {
   
   turtleCage.append(lineEl)
 }
+
 var pendown = true;
 document.onkeydown = checkKey;
 
@@ -72,7 +73,9 @@ function checkKey(e) {
       goForward(50);
   }
   else if (e.keyCode == '40') {
-    goForward(-50);
+    turnLeft(180);
+    goForward(50);
+    turnLeft(180);
   }
   else if (e.keyCode == '37') {
     console.log("left!");
