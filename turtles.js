@@ -74,10 +74,10 @@ function checkKey(e) {
     console.log("down!");
   }
   else if (e.keyCode == '37') {
-    // left arrow
+    console.log("left!");
   }
   else if (e.keyCode == '39') {
-    // right arrow
+    console.log("right!");
   }
 
 }
