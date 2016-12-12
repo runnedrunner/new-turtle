@@ -61,4 +61,23 @@ function insertLine(start, angle, distance) {
   turtleCage.append(lineEl)
 }
 var pendown = true;
-if (
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+  e = e || window.event;
+
+  if (e.keyCode == '38') {
+    console.log("up!");
+  }
+  else if (e.keyCode == '40') {
+    console.log("down!");
+  }
+  else if (e.keyCode == '37') {
+    // left arrow
+  }
+  else if (e.keyCode == '39') {
+    // right arrow
+  }
+
+}
