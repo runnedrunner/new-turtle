@@ -68,13 +68,15 @@ document.onkeydown = checkKey;
 function checkKey(e) {
 
   e = e || window.event;
-  if (e.keyCode == '31') {
+  if (e.keyCode == '32') {
     console.log("space!!");
     if (pendown) {
       pendown = false;
+      console.log("Penup!");
     }
     else {
-     pendown - 
+     pendown = true; 
+      console.log("Pendown!");
     }
   }
   else if (e.keyCode == '38') {
