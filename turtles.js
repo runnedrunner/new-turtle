@@ -76,10 +76,10 @@ function checkKey(e) {
   }
   else if (e.keyCode == '37') {
     console.log("left!");
-    turnLeft(5);
+    turnLeft(15);
   }
   else if (e.keyCode == '39') {
-    turnRight(5);
+    turnRight(15);
   }
 
 }
