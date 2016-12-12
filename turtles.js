@@ -72,13 +72,14 @@ function checkKey(e) {
       goForward(50);
   }
   else if (e.keyCode == '40') {
-    console.log("down!");
+    goForward(-50);
   }
   else if (e.keyCode == '37') {
     console.log("left!");
+    turnLeft(5);
   }
   else if (e.keyCode == '39') {
-    console.log("right!");
+    turnRight(5);
   }
 
 }
