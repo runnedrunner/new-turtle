@@ -69,7 +69,7 @@ function checkKey(e) {
 
   if (e.keyCode == '38') {
     console.log("up!");
-    
+      goForward(50);
   }
   else if (e.keyCode == '40') {
     console.log("down!");
