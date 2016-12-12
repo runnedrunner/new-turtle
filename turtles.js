@@ -40,6 +40,8 @@ function goForward(distance) {
     complete : function() {
       if (pendown) {
       insertLine(origPosition, origHeading, distance);
+        addListItem("listofproducts", {
+          "})
       }
     }, duration: 10,
   })

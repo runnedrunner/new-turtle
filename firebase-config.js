@@ -1,7 +1,7 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyBrfu07aQsQW8pQOBYEFZDd3eNCuFqqNgI",
-  authDomain: "testproject-40728.firebaseapp.com",
-  databaseURL: "https://testproject-40728.firebaseio.com"	
+  apiKey: "AIzaSyDI5o9MDkzCYXDzIkBHrVpT3Ydxap9vTbA",
+  authDomain: "savelife-c18fb.firebaseapp.com",
+  databaseURL: "https://savelife-c18fb.firebaseio.com",
 };
 
 firebase.initializeApp(firebaseConfig);
