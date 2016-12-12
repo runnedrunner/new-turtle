@@ -68,10 +68,14 @@ document.onkeydown = checkKey;
 function checkKey(e) {
 
   e = e || window.event;
-  if (e.keyCode == '38') {
-    console.log("up!");
-    goForward(50);
-    
+  if (e.keyCode == '31') {
+    console.log("space!!");
+    if (pendown) {
+      pendown = false;
+    }
+    else {
+     pendown - 
+    }
   }
   else if (e.keyCode == '38') {
     console.log("up!");
