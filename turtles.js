@@ -102,6 +102,7 @@ function checkKey(e) {
   }
 
 }
-onNewListItem(listoflines, function (r) {
-  console.log(r);
+onNewListItem("listoflines", function (r) {
+  console.log();
+  
 })
