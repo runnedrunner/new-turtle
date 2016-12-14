@@ -103,6 +103,12 @@ function checkKey(e) {
 
 }
 onNewListItem("listoflines", function (r) {
-  console.log();
+  console.log(r);
+  insertLine(origPosition, origHeading, distance);
+  addListItem("listoflines", {
+    "pos": origPosition,
+    "head": origHeading,
+    "dist": distance})
+}
   
 })
