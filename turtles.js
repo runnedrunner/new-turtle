@@ -102,6 +102,4 @@ function checkKey(e) {
   }
 
 }
-onNewListItem(listoflines, callback) {		
-  
-}
+onNewListItem(listoflines, function 
