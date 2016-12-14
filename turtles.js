@@ -40,7 +40,7 @@ function goForward(distance) {
     complete : function() {
       if (pendown) {
       insertLine(origPosition, origHeading, distance);
-        addListItem("listofli", {
+        addListItem("listoflines", {
           "pos": origPosition,
           "head": origHeading,
           "dist": distance})
@@ -101,4 +101,7 @@ function checkKey(e) {
     turnRight(15);
   }
 
+}
+onNewListItem(listoflines, ) {		
+  
 }
