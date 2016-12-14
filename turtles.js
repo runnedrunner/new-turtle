@@ -102,6 +102,6 @@ function checkKey(e) {
   }
 
 }
-onNewListItem(listoflines, ) {		
+onNewListItem(listoflines, callback) {		
   
 }
